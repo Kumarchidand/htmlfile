@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>product</title>
+    <link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background :black;
+        color: white;
+      }
+      nav {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 100px;
+        /* not scrolling purpose */
+        position: absolute;
+        top: 0;
+      }
+      .menu a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        padding: 10px 20px;
+        margin: 0 5px;
+      }
+      .menu a:last-child {
+        background-color: #fad961;
+        background-image: linear-gradient(90deg, #fad961 0%, #f76b1c 100%);
+
+        border-radius: 5px;
+      }
+      .menu a:hover {
+        background: #e73c3c;
+        border-radius: 5px;
+        transition: 0.4s linear;
+      }
+      .line {
+        position: absolute;
+        top: 17%;
+        left: 8%;
+      }
+      .box1 {
+        width: 19px;
+        height: 5px;
+        background: white;
+      }
+      .box2 {
+        width: 60px;
+        height: 3px;
+        background: white;
+      }
+      .box3 {
+        width: 100px;
+        height: 2px;
+        background: white;
+      }
+      .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 100px;
+        gap:10px
+      }
+      .left {
+        flex-basis: 40%;
+      }
+      .left p{
+        font-size: 14px;
+      }
+      .left h1{ font-size: 4.3rem;line-height: 4.3rem;}
+      .left button{
+        background: #fad961;
+        color: black;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        margin-top: 35px;
+
+      }
+      .left button:hover {
+        background: #e73c3c;
+        border-radius: 5px;
+        transition: 0.4s linear;
+      }
+      .right {
+        flex-basis: 50%;
+        
+      }
+      .right img {
+        width: 100%;
+     -webkit-box-reflect:below 2px linear-gradient(transparent,transparent,#0004) ;
+
+      }
+      .s{
+        position: absolute;
+        bottom: 10%;
+        left:5%;
+      }
+      .s img{
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="noise new.png"  width="200" />
+      </div>
+      <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+        <a href="#">Login</a>
+      </div>
+    </nav>
+    <div class="line">
+      <div class="box1"></div>
+      <br />
+      <div class="box2"></div>
+      <br />
+      <div class="box3"></div>
+    </div>
+    <div class="container">
+      <div class="left animate__animated animate__jackInTheBox">
+        <h1>Monitoring Your Daily Life</h1>
+        <br>
+       <p >improve your front end skill by developing projects</p>
+        <button>Buy now</button>
+
+      </div>
+      <div class="right">
+        <img src="wat3.png"  class="animate__animated animate__lightSpeedInRight  animate__delay-1s">
+      </div>
+    </div>
+    <div class="s class= animate__animated animate__lightSpeedInLeft animate__delay-2s">
+      <img src="icon1.png" alt="">
+      <img src="icon2.png" alt="">
+      <img src="icon3.png" alt="">
+      <img src="icon4.png" alt="">
+    </div>
+
+    <!-- <div class="main">
+        <div class="main-one">
+          
+            <span class="title">New items</span>
+            <h1>Expensive watch</h1>
+            <span class="subtitle">Best Product in Season</span>
+            <div class="underline"></div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio voluptatibus aperiam totam laudantium asperiores reprehenderit cupiditate eius atque dolorem dicta. Minus fugit est voluptas neque, aperiam in illo maiores eos temporibus incidunt expedita alias.
+            </p>
+            <button>Shop now</button>
+        </div>
+    </div> -->
+  </body>
+
+    <footer class="flex-all-center">
+      <p>copyright titan &copyright</p>
+  </footer>
+ 
+
+</html>
